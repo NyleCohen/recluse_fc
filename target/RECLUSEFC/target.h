@@ -84,11 +84,13 @@
 #define USE_SPI_DEVICE_1
 #define USE_SPI_DEVICE_2
 
+// Gyro SPI
 #define SPI1_NSS_PIN            PA4
 #define SPI1_SCK_PIN            PA5
 #define SPI1_MISO_PIN           PA6
 #define SPI1_MOSI_PIN           PA7
 
+// Dataflash SPI
 #define SPI2_NSS_PIN            PA10
 #define SPI2_SCK_PIN            PB13
 #define SPI2_MISO_PIN           PB14
@@ -106,14 +108,6 @@
 #define USE_MAX7456
 #define MAX7456_SPI_INSTANCE    SPI3
 #define MAX7456_SPI_CS_PIN      SPI3_NSS_PIN
-
-#define USE_SDCARD
-#define USE_SDCARD_SPI
-#define SDCARD_DETECT_INVERTED
-#define SDCARD_DETECT_PIN                   PD3
-#define SDCARD_SPI_INSTANCE                 SPI4
-#define SDCARD_SPI_CS_PIN                   SPI4_NSS_PIN
-#define SPI4_TX_DMA_OPT                     0     // DMA 2 Stream 1 Channel 4
 
 #define USE_I2C
 #define USE_I2C_DEVICE_2  // External I2C
