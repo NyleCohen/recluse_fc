@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1TS003B-1600-3500A-CT
+F https://datasheet.lcsc.com/lcsc/1809251630_HYP--Hongyuan-Precision-1TS003B-1600-3500A-CT_C255808.pdf
+$ENDCMP
+#
+$CMP CSTNE8M00G520000R0
+F https://datasheet.lcsc.com/lcsc/2011291635_Murata-Electronics-CSTNE8M00G520000R0_C907975.pdf
+$ENDCMP
+#
+$CMP MP4420GJ-P
+D DC-DC Converter
+K Power, Regulator, Buck
+F https://www.mouser.co.uk/datasheet/2/277/MP4420-1384291.pdf
+$ENDCMP
+#
+#End Doc Library

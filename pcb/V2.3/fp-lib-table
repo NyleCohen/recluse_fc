@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri /home/nyle/kicad/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name recluse)(type KiCad)(uri ${KIPRJMOD}/recluse.pretty)(options "")(descr ""))
+)
